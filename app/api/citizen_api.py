@@ -5,6 +5,7 @@ from app.models.incident import DBIncident, IncidentCreate, IncidentResponse
 from app.services.verification import verify_incident_logic
 from app.services.ws_manager import manager
 import uuid
+import hashlib
 
 router = APIRouter()
 
